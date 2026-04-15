@@ -79,9 +79,9 @@ ROA ~ COGS Ratio + SG&A Ratio + Log Assets + Year Fixed Effects
 ├── README.md
 ├── requirements.txt
 ├── src/
-│   └── retail_apparel_analysis.py
+│   └── acc102.py
 ├── notebooks/
-│   └── retail_apparel_analysis.ipynb
+│   └── acc102.ipynb
 ├── outputs/
 │   ├── descriptive_statistics.csv
 │   ├── company_summary.csv
