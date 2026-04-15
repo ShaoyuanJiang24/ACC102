@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       Operating_margin   R-squared:                       0.874
+Model:                            OLS   Adj. R-squared:                  0.873
+Method:                 Least Squares   F-statistic:                     657.2
+Date:                Fri, 10 Apr 2026   Prob (F-statistic):          7.78e-293
+Time:                        00:16:23   Log-Likelihood:                 558.31
+No. Observations:                 669   AIC:                            -1101.
+Df Residuals:                     661   BIC:                            -1065.
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  0.8033      0.052     15.478      0.000       0.701       0.905
+C(Fiscal_Year)[T.2021]     0.0040      0.012      0.319      0.750      -0.020       0.028
+C(Fiscal_Year)[T.2022]     0.0011      0.012      0.091      0.928      -0.023       0.025
+C(Fiscal_Year)[T.2023]     0.0029      0.013      0.226      0.821      -0.022       0.028
+C(Fiscal_Year)[T.2024]     0.0020      0.013      0.149      0.882      -0.024       0.028
+COGS_ratio                -0.8763      0.025    -34.824      0.000      -0.926      -0.827
+SGA_ratio                 -1.0274      0.017    -61.431      0.000      -1.060      -0.995
+Log_Assets                 0.0039      0.002      1.745      0.081      -0.000       0.008
+==============================================================================
+Omnibus:                      445.187   Durbin-Watson:                   0.522
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3846.423
+Skew:                          -3.028   Prob(JB):                         0.00
+Kurtosis:                      13.065   Cond. No.                         279.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
